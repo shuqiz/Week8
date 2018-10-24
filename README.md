@@ -45,6 +45,8 @@ To reproduce: <script> alert ("THIS IS AN ALERT"); </script>
 
 Vulnerability #2: Username Enumeration
 
+If a correct username with a wrong password were entered, the class of the error code is "failure". If a wrong username was entered, the class is "failed".
+
 ![](username.gif)
 
 
@@ -53,6 +55,8 @@ Vulnerability #2: Username Enumeration
 ## Red
 
 Vulnerability #1: Insecure Direct Object Reference (IDOR)
+
+Hidden salesman information can be viewed by changing id.
 
 ![](idor.gif)
 
