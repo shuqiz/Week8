@@ -27,16 +27,25 @@ The original url ends with id = 3. I injected another statement (OR sleep(5) = 0
 
 Vulnerability #2: Session Hijacking
 
-To start with, I opened two windows with different browsers. Then I logged in my account in the first browser, copied and pasted its session id to the second one. Now when I go the staff/index.php, it's already logged in without entering username and password.
+To start with, I opened two windows with different browsers. Then I logged in my account in the first browser, copied and pasted its session id to the second one. Now when I go the staff/index.php on the second browser, it's already logged in without entering username and password.
 
 
 ![](sessionid.gif)
 
+
 ## Green
 
-Vulnerability #1: __________________
+Vulnerability #1: Cross-Site Scripting (XSS)
 
-Vulnerability #2: __________________
+
+To reproduce: <script> alert ("THIS IS AN ALERT"); </script>
+
+
+![](xss.gif)
+
+Vulnerability #2: Insecure Direct Object Reference (IDOR)
+
+![](IDOP.gif)
 
 
 ## Red
