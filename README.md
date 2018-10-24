@@ -52,7 +52,7 @@ Vulnerability #2: Username Enumeration
 
 Vulnerability #1: Insecure Direct Object Reference (IDOR)
 
-![](IDOR.gif)
+![](idor.gif)
 
 Vulnerability #2: __________________
 
