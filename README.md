@@ -43,14 +43,16 @@ To reproduce: <script> alert ("THIS IS AN ALERT"); </script>
 
 ![](xss.gif)
 
-Vulnerability #2: Insecure Direct Object Reference (IDOR)
+Vulnerability #2: Username Enumeration
 
-![](IDOP.gif)
+![](username.gif)
 
 
 ## Red
 
-Vulnerability #1: __________________
+Vulnerability #1: Insecure Direct Object Reference (IDOR)
+
+![](IDOR.gif)
 
 Vulnerability #2: __________________
 
